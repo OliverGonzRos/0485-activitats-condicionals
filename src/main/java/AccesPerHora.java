@@ -15,5 +15,9 @@ public class AccesPerHora {
         int dia_setmana = calendar.get(Calendar.DAY_OF_WEEK);
         System.out.println(hour);
         System.out.println(dia_setmana);
+
+        if (hour>8) {
+            System.out.println("Pots accedir");
+        }
     }
 }

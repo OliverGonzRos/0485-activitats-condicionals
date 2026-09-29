@@ -22,20 +22,32 @@ public class DivisioGranPetit {
 
         if (num1 == num2) {
             System.out.println("Els números han de ser diferents");
-        } else {
-            double gran = Math.max(num1, num2);
-            double petit = Math.min(num1, num2);
-        
-
-            if (petit == 0) {
+        } else { if (num1>num2) {
+            System.out.println("El numero 1 es mes gran");
+            if (num2 == 0) {
                 System.out.println("El divisor no pot ser 0");
-            } else {
-                double resultat = gran / petit;
+            }
+             else {
+                double resultat = num1 / num2;
                 System.out.println("El resultat és: " + resultat);
             }
         }
 
-    
+           
+        
+        if (num2>num1) {
+            System.out.println("El numero 2 es mes gran");
+             if (num1 == 0) {
+                System.out.println("El divisor no pot ser 0");
+            } else {
+                double resultat = num2 / num1;
+                System.out.println("El resultat és: " + resultat);
+            }
+        }
+           
+        }
+
+
     }
 }
 
