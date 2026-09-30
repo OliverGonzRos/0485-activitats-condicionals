@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 // Activitat 16 — Descompte per trams
 public class DescompteTrams {
     public static void main(String[] args) {
@@ -7,5 +10,29 @@ public class DescompteTrams {
         //   1000 <= N <= 5000 -> 15%
         //   N > 5000         -> 25%
         //   Mostra el resultat
-    }
+    Scanner teclat = new Scanner(System.in);
+
+ System.out.println("Introdueix una quantitat: ");
+ int N = teclat.nextInt();
+
+ if (N<500) {
+    double numeroFinal = N * 0.95;
+    System.out.println("El resultat és: " + numeroFinal);
+ }
+ if (N>=500 && N<1000) {
+    double numeroFinal = N * 0.92;
+    System.out.println("El resultat és: " + numeroFinal);
+ }
+  if (N>=1000 && N<5000) {
+    double numeroFinal = N * 0.85;
+    System.out.println("El resultat és: " + numeroFinal);
+ }
+  if (N>5000) {
+    double numeroFinal = N * 0.75;
+    System.out.println("El resultat és: " + numeroFinal);
+ }
+    
+   
+}
+
 }

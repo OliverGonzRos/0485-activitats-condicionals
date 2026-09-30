@@ -24,6 +24,8 @@ public class PositiuNegatiuZero {
          if (num == 0) {
             System.out.println("Es zero");
          }
+
+         // son apunts
          endTime = System.nanoTime();
          duration = endTime - startTime;
 

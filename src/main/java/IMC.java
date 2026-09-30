@@ -23,7 +23,13 @@ public class IMC {
             System.out.println("Pes insuficient");
         }
         if (imc<25 && imc>18.5) {
-            System.out.println("Pes insuficient");
+            System.out.println("Pes normal");
+        }
+        if (imc<30 && imc>25) {
+            System.out.println("Sobrepès");
+        }
+        if(imc>=30) {
+            System.out.println("Obesitat");
         }
 
 
