@@ -7,6 +7,7 @@ public class PositiuNegatiuZero {
         // TODO: llegeix un número enter i digues si és positiu, negatiu o zero
 
         int num;
+        //el long solo es para apuntes no tiene relevancia
         long startTime, endTime, duration;
         Scanner teclat = new Scanner(System.in);
 

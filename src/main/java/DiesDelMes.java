@@ -27,8 +27,10 @@ public class DiesDelMes {
                 case 9:
                 case 11:
                     System.out.println("30 dies");
+                break;
                 case 2:
                     System.out.println("28 dies");
+                break;
             default: 
             System.out.println("No es un numero del 1 al 12");
     }
