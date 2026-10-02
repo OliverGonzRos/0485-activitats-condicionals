@@ -27,12 +27,13 @@ public class VaquesPorcs {
             System.out.println("Hi ha més vaques que porcs!"); }
 
         if (percentatge_vaques==percentatge_porcs) {
-            System.out.println("Hi ha la mateixa quantitat!");
-        }
-        else { System.out.println("Hi ha més porcs que vaques!");}
-
-
-
+            System.out.println("Hi ha la mateixa quantitat!"); }
+        
+        if (percentatge_porcs>percentatge_vaques) {
+             System.out.println("Hi ha més porcs que vaques!");} 
+    
+        
+  
 
 
     }
