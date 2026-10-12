@@ -16,13 +16,13 @@ public class MesGranDeTres {
     double num3 = teclat.nextDouble();
 
     if (num1>num2 && num1>num3) {
-        System.out.println("El numero 1 es el mes gran");
+        System.out.println("El numero 1 es el més gran");
     }
     if (num2>num1 && num2>num3) {
-        System.out.println("El numero 2 es el mes gran");
+        System.out.println("El numero 2 es el més gran");
     }
     if (num3>num1 && num3>num2) {
-        System.out.println("El numero 3 es el mes gran");
+        System.out.println("El numero 3 es el més gran");
     }
 
         

@@ -19,7 +19,6 @@ public class MonedesMinimesCondicional {
 
         int monedes200 = centims / 200;
         centims = centims % 200;
-        // similar al de las horas, para aprovechar el resto
 
         int monedes100 = centims / 100;
         centims = centims % 100;

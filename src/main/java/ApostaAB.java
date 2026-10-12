@@ -20,25 +20,16 @@ public class ApostaAB {
         char lletra;
         lletra = teclat.next().charAt(0); 
 
-        if (lletra == 'A' && A>B) {
+
+
+        if ((lletra == 'A' && A>B) || (lletra == 'B' && B>A)) {
             System.out.println("Els valors eren: A= " + A + "B= " + B);
             System.out.println("Enhorabona, has guanyat");
-        }
+        } else
          {
             System.out.println("Els valors eren: A= " + A + "B= " + B);
             System.out.println("Mala sort, has perdut");
-        }
-        if (lletra == 'B' && B>A) {
-            System.out.println("Els valors eren: A= " + A + "B= " + B);
-            System.out.println("Enhorabona, has guanyat");
-        }
-        if (lletra == 'B' && B<A) {
-            System.out.println("Els valors eren: A= " + A + "B= " + B);
-            System.out.println("Mala sort, has perdut");
-        }
-
-
-
+        } 
 
     }
 }

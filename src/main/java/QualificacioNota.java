@@ -11,21 +11,24 @@ public class QualificacioNota {
          System.out.println("Escriu una nota entre 0 i 10: ");
          double nota = teclat.nextDouble();
 
-         if (nota>10) {
-            System.out.println("No esta entre 0 i 10");
-         }
-         if (nota>5 && nota<=5.9) {
+         if (nota<5 && nota>0) {
             System.out.println("Insuficient");
-         }
-         if (nota>6 && nota<=6.9) {
+         } else
+         if (nota>=5 && nota<=5.9) {
+            System.out.println("Suficient");
+         } else
+         if (nota>=6 && nota<=6.9) {
             System.out.println("Bé");
-         }
-         if (nota>7 && nota<=8.9) {
+         } else
+         if (nota>=7 && nota<=8.9) {
             System.out.println("Notable");
-         }
-         if (nota>9 && nota<=10) {
+         } else
+         if (nota>=9 && nota<=10) {
             System.out.println("Excelent");
-         }
+         } else
+         if (nota>10 || nota<0) {
+            System.out.println("No esta entre 0 i 10");
+         } 
 }
 
 }

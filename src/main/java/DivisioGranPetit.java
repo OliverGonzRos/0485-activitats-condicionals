@@ -14,34 +14,32 @@ public class DivisioGranPetit {
 
     Scanner teclat = new Scanner(System.in);
 
-    System.out.print("Introdueix el primer número: ");
+    System.out.println("Introdueix el primer número: ");
     double num1 = teclat.nextDouble();
 
-    System.out.print("Introdueix el segon número: ");
+    System.out.println("Introdueix el segon número: ");
     double num2 = teclat.nextDouble();
 
         if (num1 == num2) {
             System.out.println("Els números han de ser diferents");
         } else { if (num1>num2) {
-            System.out.println("El numero 1 es mes gran");
             if (num2 == 0) {
                 System.out.println("El divisor no pot ser 0");
             }
              else {
                 double resultat = num1 / num2;
-                System.out.println("El resultat és: " + resultat);
+                System.out.print("El resultat de dividir " +num1+ " entre " +num2+ " és: " + resultat);
             }
         }
 
            
         
         if (num2>num1) {
-            System.out.println("El numero 2 es mes gran");
              if (num1 == 0) {
                 System.out.println("El divisor no pot ser 0");
             } else {
                 double resultat = num2 / num1;
-                System.out.println("El resultat és: " + resultat);
+                 System.out.print("El resultat de dividir " +num2+ " entre " +num1+ " és: " + resultat);
             }
         }
            

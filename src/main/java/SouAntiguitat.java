@@ -20,11 +20,11 @@ public class SouAntiguitat {
         if (sou<500 && antiguitat>=10) {
             double souFinal = sou * 1.2;
             System.out.println("El teu sou es: " + souFinal);
-        }
+        } else
         if (sou<500 && antiguitat<10) {
             double souFinal = sou * 1.05;
             System.out.println("El teu sou es: " + souFinal);
-        }
+        } else
         if (sou>500) {
             System.out.println("El teu sou es: " + sou);
         }

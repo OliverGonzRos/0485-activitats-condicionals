@@ -13,12 +13,12 @@ public class Febre {
         double temperatura = teclat.nextDouble();
 
         if (temperatura>=37) {
-        System.out.println("Tienes fiebre, descansa");
-        System.out.println("Tomate el dia libre"); 
+        System.out.println("Tens febre, descansa");
+        System.out.println("Recuperat a casa"); 
 
         } else {
-                System.out.println("No tienes fiebre, que bien");
-                System.out.println("Puedes quedarte");
+                System.out.println("No tens febre, que bé");
+                System.out.println("Pots quedar-te");
                 }
 
         

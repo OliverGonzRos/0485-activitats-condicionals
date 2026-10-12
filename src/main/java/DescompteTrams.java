@@ -18,15 +18,15 @@ public class DescompteTrams {
  if (N<500) {
     double numeroFinal = N * 0.95;
     System.out.println("El resultat és: " + numeroFinal);
- }
+ } else
  if (N>=500 && N<1000) {
     double numeroFinal = N * 0.92;
     System.out.println("El resultat és: " + numeroFinal);
- }
-  if (N>=1000 && N<5000) {
+ } else
+  if (N>=1000 && N<=5000) {
     double numeroFinal = N * 0.85;
     System.out.println("El resultat és: " + numeroFinal);
- }
+ } else
   if (N>5000) {
     double numeroFinal = N * 0.75;
     System.out.println("El resultat és: " + numeroFinal);

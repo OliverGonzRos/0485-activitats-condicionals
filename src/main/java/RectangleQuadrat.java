@@ -23,12 +23,14 @@ public class RectangleQuadrat {
         System.out.println("El area es: " + area );
 
         if (costatGran == costatPetit) {
-            System.out.println("No es un rectangle");
             System.out.println("Es un quadrat");
+            System.out.println("No es un rectangle");
+          
         }
         else {
-            System.out.println("No es un quadrat");
             System.out.println("Es un rectangle");
+            System.out.println("No es un quadrat");
+            
         }
 
 

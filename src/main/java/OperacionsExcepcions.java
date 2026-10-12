@@ -21,7 +21,7 @@ public class OperacionsExcepcions {
         System.out.println(numero + "*" + numero2 + "=" + (numero * numero2));
 
         if (numero2 == 0) {
-            System.out.println("Error, el numero 2 no puede ser 0");
+            System.out.println("Error, el numero 2 no pot ser 0");
         }
         else { 
             System.out.println(numero + "/" + numero2 + "=" + ((double)numero / numero2));
