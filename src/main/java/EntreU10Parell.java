@@ -10,15 +10,17 @@ public class EntreU10Parell {
         System.out.println("Escriu un numero enter: ");
         int numero = teclat.nextInt();
 
-        if (numero>1 && numero<10) {
-            System.out.println("El numero esta entre 1 i 10");
+      
+        if (numero >= 1 && numero <= 10) {
             if (numero % 2 == 0) {
-                System.out.println("El numero es parell");
+                System.out.println("El número està entre 1 i 10 i és parell");
+            } else {
+                System.out.println("El número està entre 1 i 10 i no és parell");
             }
-            else {
-                System.out.println("EL numero no es parell");
-            }
+        } else {
+            System.out.println("El número no està entre 1 i 10");
         }
+
 
 
     }

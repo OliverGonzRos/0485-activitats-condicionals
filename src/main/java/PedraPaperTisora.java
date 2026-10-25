@@ -16,7 +16,7 @@ public class PedraPaperTisora {
         int numero = generador.nextInt(0,3);
         String numero2;
 
-        System.out.println("Entra pedra, paper o tisora: ");
+        System.out.println("Entra pedra, paper o tisores: ");
         String eleccio = teclat.next();
 
         switch (numero) {
@@ -32,8 +32,9 @@ public class PedraPaperTisora {
         }
 
         System.out.println("L'ordinador ha tret " + numero2);
-
-        if (eleccio.equals("pedra") && numero2.equals("tisores")) {
+         if (!eleccio.equals("pedra") && !eleccio.equals("paper") && !eleccio.equals("tisores")) {
+            System.out.println("Opció no vàlida");
+         }else if (eleccio.equals("pedra") && numero2.equals("tisores")) {
             System.out.println("Has guanyat!");
          }else if (eleccio.equals("paper") && numero2.equals("pedra")) {
             System.out.println("Has guanyat!");

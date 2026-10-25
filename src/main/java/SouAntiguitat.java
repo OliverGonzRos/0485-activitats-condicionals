@@ -12,7 +12,7 @@ public class SouAntiguitat {
         Scanner teclat = new Scanner(System.in);
 
         System.out.println("Escriu el sou: ");
-        int sou = teclat.nextInt();
+        double sou = teclat.nextDouble();
 
         System.out.println("Escriu els anys de antiguitat: ");
         int antiguitat = teclat.nextInt();
@@ -25,7 +25,7 @@ public class SouAntiguitat {
             double souFinal = sou * 1.05;
             System.out.println("El teu sou es: " + souFinal);
         } else
-        if (sou>500) {
+        if (sou>=500) {
             System.out.println("El teu sou es: " + sou);
         }
 

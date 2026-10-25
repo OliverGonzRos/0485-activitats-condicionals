@@ -15,15 +15,15 @@ public class MesGranDeTres {
     System.out.println("Escriu el numero 3: ");
     double num3 = teclat.nextDouble();
 
-    if (num1>num2 && num1>num3) {
-        System.out.println("El numero 1 es el més gran");
-    }
-    if (num2>num1 && num2>num3) {
-        System.out.println("El numero 2 es el més gran");
-    }
-    if (num3>num1 && num3>num2) {
-        System.out.println("El numero 3 es el més gran");
-    }
+     double max = num1;
+        if (num2 > max) {
+            max = num2;
+        }
+        if (num3 > max) {
+            max = num3;
+        }
+
+        System.out.println("El número més gran és: " + max);
 
         
     }

@@ -13,7 +13,7 @@ public class DescompteTrams {
     Scanner teclat = new Scanner(System.in);
 
  System.out.println("Introdueix una quantitat: ");
- int N = teclat.nextInt();
+ double N = teclat.nextDouble();
 
  if (N<500) {
     double numeroFinal = N * 0.95;
